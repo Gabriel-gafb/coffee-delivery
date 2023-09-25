@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeaderContainer = styled.header`
     display: flex;
     justify-content: space-between;
-
+    margin-left: 1rem;
     nav {
     display: flex;
     gap: 0.5rem;
@@ -31,4 +31,6 @@ align-self: flex-start;
 export const LeftTopHeaderContainer =styled.div`
   align-self: flex-end;
   justify-self: flex-end;
+
+
 `
